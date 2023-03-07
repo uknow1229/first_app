@@ -5,11 +5,14 @@
   /*color: #6c6b6b;*/
 }
 
-
-.list {
+main{
   width: 960px;
   margin: 50px auto;
+}
+
+.list {
   list-style: none;
+  margin-bottom: 50px;
 }
 
 .list-item {
@@ -21,22 +24,19 @@
 }
 
 .box {
-  width: 960px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin: 0 auto;
 }
 
 .box-item {
   width: 30%;
   height: 200px;
-  background-color: yellow;
+  background-color: #ffd700;
   margin-bottom: 40px;
 }
 
 .box-item:nth-child(1) {
-  background-color: orange;
+  background-color: #ff8c00;
 }
 
 .box-item:nth-child(2) {
@@ -44,12 +44,12 @@
 }
 .box-item:nth-child(5) {
   margin: 0 5%;
-  background-color: orange;
+  background-color: #ff8c00;
 }
 .box-item:nth-child(8) {
   margin: 0 5%;
 }
 
 .box-item:nth-child(9) {
-  background-color: orange;
+  background-color: #ff8c00;
 }
