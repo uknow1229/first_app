@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding-top: 50px;
+  background-color: #FF9A4B;
+}
+
+main {
+}
+
+.flow-wrapper {
+  display: flex;
+  margin: 50px 0;
+  justify-content: center;
+}
+
+.flow {
+  background-color: #EEEEEE;
+  width: 300px;
+}
+
+.flow:nth-child(2) {
+  margin: 0 30px;
+}
+
+.flow-heading p {
+  background-color: #FF9A4b;
+  display: inline-block;
+  color: #FFF;
+  position: absolute;
+  z-index: 1;
+  padding-bottom: 5px;
+}
+
+.flow-item {
+  padding: 5px;
+}
+
+.flow-contents {
+  padding: 10px;
+}
+
+.flow-image {
+  width: 100%;
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.flow-image2 {
+  background-image: url(img/flow02.png);
+
+}
+
+.flow-image3 {
+  background-image: url(img/flow03.png);
+
+}
+
+.flow-item h p {
+  margin: 5px;
+}
+
+.flow-text {
+
+}
+
+footer {
+  padding-bottom: 50px;
+  background-color: #AAAAAA;
+}
