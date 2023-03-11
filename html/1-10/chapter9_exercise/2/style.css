@@ -21,23 +21,24 @@ main {
 .flow {
   background-color: #EEEEEE;
   width: 300px;
+  position: relative;
+
 }
 
 .flow:nth-child(2) {
   margin: 0 30px;
 }
 
-.flow-heading p {
+.flow-heading {
   background-color: #FF9A4b;
   display: inline-block;
   color: #FFF;
   position: absolute;
   z-index: 1;
-  padding-bottom: 5px;
 }
 
-.flow-item {
-  padding: 5px;
+.flow-item h3 {
+  padding: 15px 0 5px 0;
 }
 
 .flow-contents {
@@ -50,7 +51,6 @@ main {
   background-image: url(img/flow01.png);
   background-size: cover;
   background-position: center;
-  position: relative;
 }
 
 .flow-image2 {
