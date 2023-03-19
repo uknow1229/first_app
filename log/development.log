@@ -1,0 +1,74 @@
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: e1f50372654a488683aac93a51eb27d1.vfs.cloud9.ap-northeast-1.amazonaws.com
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: e1f50372654a488683aac93a51eb27d1.vfs.cloud9.ap-northeast-1.amazonaws.com
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: e1f50372654a488683aac93a51eb27d1.vfs.cloud9.ap-northeast-1.amazonaws.com
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: e1f50372654a488683aac93a51eb27d1.vfs.cloud9.ap-northeast-1.amazonaws.com
+Started GET "/" for 180.31.193.33 at 2023-03-19 06:54:32 +0000
+Cannot render console from 180.31.193.33! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (2.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/" for 180.31.193.33 at 2023-03-19 06:54:32 +0000
+Cannot render console from 180.31.193.33! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-3.1.2/gems/railties-6.1.7.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendering /home/ec2-user/.rvm/gems/ruby-3.1.2/gems/railties-6.1.7.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-3.1.2/gems/railties-6.1.7.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 17.7ms | Allocations: 496)
+  Rendered /home/ec2-user/.rvm/gems/ruby-3.1.2/gems/railties-6.1.7.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 17.4ms | Allocations: 403)
+Completed 200 OK in 47ms (Views: 22.0ms | ActiveRecord: 0.0ms | Allocations: 3914)
+
+
+Completed 200 OK in 49ms (Views: 20.3ms | ActiveRecord: 0.0ms | Allocations: 4149)
+
+
+Started GET "/" for 180.31.193.33 at 2023-03-19 07:14:14 +0000
+Cannot render console from 180.31.193.33! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-3.1.2/gems/railties-6.1.7.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-3.1.2/gems/railties-6.1.7.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 11.3ms | Allocations: 470)
+Completed 200 OK in 35ms (Views: 20.4ms | ActiveRecord: 0.0ms | Allocations: 3236)
+
+
+Started GET "/" for 180.31.193.33 at 2023-03-19 07:14:24 +0000
+Cannot render console from 180.31.193.33! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-3.1.2/gems/railties-6.1.7.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-3.1.2/gems/railties-6.1.7.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.2ms | Allocations: 268)
+Completed 200 OK in 16ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 1115)
+
+
+Started GET "/" for 180.31.193.33 at 2023-03-19 07:14:26 +0000
+Cannot render console from 180.31.193.33! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-3.1.2/gems/railties-6.1.7.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-3.1.2/gems/railties-6.1.7.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | Allocations: 46)
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 401)
+
+
+Started GET "/top" for 180.31.193.33 at 2023-03-19 07:14:36 +0000
+Cannot render console from 180.31.193.33! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.4ms | Allocations: 149)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/ec2-user/environment/first_app/public/packs
+[Webpacker] warning ../../package.json: No license field
+
+[Webpacker] Hash: 804a8059a304061a3e74
+Version: webpack 4.46.0
+Time: 2974ms
+Built at: 03/19/2023 7:14:42 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-271cf8931bb708d2d8bb.js    121 KiB  application  [emitted] [immutable]  application
+js/application-271cf8931bb708d2d8bb.js.map    133 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-271cf8931bb708d2d8bb.js js/application-271cf8931bb708d2d8bb.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 493 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6616.9ms | Allocations: 14298)
+Completed 200 OK in 6624ms (Views: 6622.6ms | ActiveRecord: 0.0ms | Allocations: 15731)
+
+
